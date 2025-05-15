@@ -1,13 +1,13 @@
-import { useState } from 'react'
+
 import './App.css'
-import Footer from './components/Footer'
+import Button from './components/reUse/Button'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <Footer/>
+      
     </>
   )
 }
