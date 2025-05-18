@@ -1,15 +1,13 @@
 
 import './App.css'
-import Button from './components/reUse/Button'
-import Gradient from './components/reUse/Gradient'
-import Navbarx from './components/sheard/Navbar'
+import Hero from './components/Hero'
 
 function App() {
 
 
   return (
     <>
-      <Navbarx/>
+      <Hero/>
     </>
   )
 }

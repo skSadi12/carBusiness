@@ -23,12 +23,12 @@ function Navbarx() {
   const menuItems = ["Problem & Solution", "Industries We Serve", "How It Works", "Testimonials","FAQs"];
 
   return (
-    <div className=" mx-5  mt-10">
+    <div className=" mx-5  pt-10">
       <AppBar
         className="r"
         position="static"
         sx={{
-          backgroundColor: "#C9E5EF",
+          backgroundColor: "white",
           color: "black",
           maxWidth: "1400px",
           marginX: "auto",
@@ -54,6 +54,7 @@ function Navbarx() {
               style={{
                 display: "flex",
                 alignItems: "center",
+                justifyItems:"center",
                 width: "100%",
                 justifyContent: "space-between",
               }}
