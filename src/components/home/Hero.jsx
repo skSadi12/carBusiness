@@ -1,10 +1,10 @@
 import React from "react";
-import Navbarx from "./sheard/Navbar";
-import Buttonx from "./reUse/Buttonx"
+import Navbarx from "../sheard/Navbar";
+import Buttonx from "../reUse/Buttonx"
 import herobg from "/hero-side.svg"
 function Hero() {
   return (
-    <main className='bg-[url("/hero-bg.svg")] bg-no-repeat bg-top min-h-svh'>
+    <section >
       <Navbarx />
       <div className="flex flex-col-reverse lg:flex-row gap-5 justify-center items-center max-w-[1400px] px-5 mx-auto mt-24">
         <div className="md:space-y-9 space-y-3 lg:w-2/3   w-full">
@@ -19,7 +19,7 @@ function Hero() {
             <img src={herobg} className="" alt="" />
         </div>
       </div>
-    </main>
+    </section>
   );
 }
 
