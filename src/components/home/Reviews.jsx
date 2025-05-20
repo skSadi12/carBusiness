@@ -43,7 +43,7 @@ function Reviews() {
       <h2 className="text-center text-[46px] font-bold py-12 ">
         Reviews From <Gradient>Our Client</Gradient>
       </h2>
-      <div className="max-w-[1300px] px-5 mx-auto justify-evenly flex flex-col lg:flex-row gap-20   items-center">
+      <div className="max-w-[1300px] px-5 pb-20 mx-auto justify-evenly flex flex-col lg:flex-row gap-20   items-center">
         <div className="flex items-center gap-5 lg:w-1/2 w-full">
           <div className="space-y-5">
             {Array.from(Array(3).keys()).map((el) => (
