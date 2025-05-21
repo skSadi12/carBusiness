@@ -8,7 +8,7 @@ import Gradient from "../reUse/Gradient";
 
 function Questions() {
   return (
-    <section className='bg-[url("/faq-bg-line.svg")] pt-10 bg-no-repeat min-h-screen'>
+    <section className='bg-[url("/faq-bg-line.svg")] pt-10 bg-no-repeat py-20'>
       <h2 className="text-[46px] font-bold text-center ">
         Frequently <Gradient>Asked Questions</Gradient>
       </h2>

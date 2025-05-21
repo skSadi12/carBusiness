@@ -1,6 +1,7 @@
 
 import './App.css'
 import Hero from './components/home/Hero'
+import Management from './components/home/Management'
 import Partners from './components/home/Partners'
 import Problem from './components/home/Problem'
 import Questions from './components/home/Questions'
@@ -16,6 +17,7 @@ function App() {
       <Reviews/>
       <Partners/>
       <Questions/>
+      <Management/>
     </main>
   )
 }
